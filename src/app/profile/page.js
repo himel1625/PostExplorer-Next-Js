@@ -32,6 +32,7 @@ async function profile() {
             {user.given_name}
           </h2>
           <p className='text-gray-500 text-sm'>{user.email}</p>
+          
           <div className='flex items-center gap-2'>
             <span className='text-gray-700 text-sm'>ID: {user.id}</span>
           </div>
