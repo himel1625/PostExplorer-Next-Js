@@ -23,6 +23,7 @@ export default function RootLayout({ children }) {
           {children}
         </main>
 
+        
         <footer className='text-center text-sm bg-slate-200 py-5 text-black'>
           © 2023 - {new Date().getFullYear()} PostExplorer . All rights
           reserved.
