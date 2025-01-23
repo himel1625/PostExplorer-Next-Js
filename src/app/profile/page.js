@@ -20,6 +20,7 @@ async function profile() {
       <h1 className=' font-bold text-[#f2780c] text-2xl md:text-4xl text-center py-5'>
         Welcome to your profile!
       </h1>
+      
       <div className='flex justify-center mt-10 relative items-center border md:w-1/2 mx-auto p-4 rounded shadow'>
         <div className='flex flex-col absolute -top-5 items-center '>
           <Avatar className=' h-16 w-16  ring ring-metal-200 ' size='lg'>
